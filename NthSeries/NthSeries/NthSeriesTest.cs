@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 // ReSharper disable PossibleLossOfFraction
 // ReSharper disable SpecifyACultureInStringConversionExplicitly
@@ -26,7 +27,11 @@ namespace NthSeries
             seriesResult("1.25",2);
         }
 
-        
+        [TestMethod]
+        public void Input_5_Should_Be_1_57()
+        {
+            seriesResult("1.57",5);
+        }
 
         private static void seriesResult(string expected, int input)
         {
@@ -42,13 +47,14 @@ namespace NthSeries
         {
             if (input.Equals(0))
                 return "0.00";
-
-            float result = 1.00f;
+            else if (input.Equals(1))
+                return "1";
+            double result = 1;
             for (int i = 4; i < input * 3; i += 3)
             {
                 result += 1 / float.Parse(i.ToString());
             }
-            return result.ToString();
+            return string.Format("{0:N2}", Convert.ToDecimal(result.ToString()));
         }
 
     }
