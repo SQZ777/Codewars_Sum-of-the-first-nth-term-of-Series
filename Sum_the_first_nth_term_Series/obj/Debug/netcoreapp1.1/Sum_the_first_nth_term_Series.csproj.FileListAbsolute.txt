@@ -1,9 +1,0 @@
-D:\ForDemo\TDD練習\Codewars.com\Codewars_Sum of the first nth term of Series\Sum_the_first_nth_term_Series\Sum_the_first_nth_term_Series\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-D:\ForDemo\TDD練習\Codewars.com\Codewars_Sum of the first nth term of Series\Sum_the_first_nth_term_Series\Sum_the_first_nth_term_Series\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-D:\ForDemo\TDD練習\Codewars.com\Codewars_Sum of the first nth term of Series\Sum_the_first_nth_term_Series\Sum_the_first_nth_term_Series\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-D:\ForDemo\TDD練習\Codewars.com\Codewars_Sum of the first nth term of Series\Sum_the_first_nth_term_Series\Sum_the_first_nth_term_Series\bin\Debug\netcoreapp1.1\Sum_the_first_nth_term_Series.deps.json
-D:\ForDemo\TDD練習\Codewars.com\Codewars_Sum of the first nth term of Series\Sum_the_first_nth_term_Series\Sum_the_first_nth_term_Series\bin\Debug\netcoreapp1.1\Sum_the_first_nth_term_Series.runtimeconfig.json
-D:\ForDemo\TDD練習\Codewars.com\Codewars_Sum of the first nth term of Series\Sum_the_first_nth_term_Series\Sum_the_first_nth_term_Series\bin\Debug\netcoreapp1.1\Sum_the_first_nth_term_Series.runtimeconfig.dev.json
-D:\ForDemo\TDD練習\Codewars.com\Codewars_Sum of the first nth term of Series\Sum_the_first_nth_term_Series\Sum_the_first_nth_term_Series\bin\Debug\netcoreapp1.1\Sum_the_first_nth_term_Series.dll
-D:\ForDemo\TDD練習\Codewars.com\Codewars_Sum of the first nth term of Series\Sum_the_first_nth_term_Series\Sum_the_first_nth_term_Series\obj\Debug\netcoreapp1.1\Sum_the_first_nth_term_Series.csprojResolveAssemblyReference.cache
-D:\ForDemo\TDD練習\Codewars.com\Codewars_Sum of the first nth term of Series\Sum_the_first_nth_term_Series\Sum_the_first_nth_term_Series\obj\Debug\netcoreapp1.1\Sum_the_first_nth_term_Series.AssemblyInfo.cs

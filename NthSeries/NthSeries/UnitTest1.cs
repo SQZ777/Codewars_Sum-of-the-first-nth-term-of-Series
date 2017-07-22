@@ -1,7 +1,7 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Sum_the_first_nth_term_Series
+namespace NthSeries
 {
     [TestClass]
     public class UnitTest1
