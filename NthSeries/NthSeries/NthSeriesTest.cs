@@ -33,6 +33,11 @@ namespace NthSeries
             seriesResult("1.57",5);
         }
 
+        [TestMethod]
+        public void Input_9_Should_Be_1_77()
+        {
+            seriesResult("1.77",9);
+        }
         private static void seriesResult(string expected, int input)
         {
             var nthSeries = new NthSeries();
@@ -43,19 +48,19 @@ namespace NthSeries
 
     public class NthSeries
     {
-        public string seriesSum(int input)
+        public string seriesSum(int n)
         {
-            if (input.Equals(0))
-                return "0.00";
-            else if (input.Equals(1))
-                return "1";
-            double result = 1;
-            for (int i = 4; i < input * 3; i += 3)
+            double result = 0;
+            for (int i = 1; i < n * 3; i += 3)
             {
-                result += 1 / float.Parse(i.ToString());
+                result += caculate(i);
             }
-            return string.Format("{0:N2}", Convert.ToDecimal(result.ToString()));
+            return n!=1 ? Math.Round(result, 2).ToString("N2") : Math.Round(result, 2).ToString();
         }
 
+        private static double caculate(int i)
+        {
+            return 1 / double.Parse(i.ToString());
+        }
     }
 }
